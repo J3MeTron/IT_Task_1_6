@@ -1,0 +1,15 @@
+<Application x:Class="LogManagerApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LogManager"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="MessageTypes" Type="local:MessageType">
+                <local:MessageType>Error</local:MessageType>
+                <local:MessageType>Warning</local:MessageType>
+                <local:MessageType>Information</local:MessageType>
+            </x:Array>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application> 

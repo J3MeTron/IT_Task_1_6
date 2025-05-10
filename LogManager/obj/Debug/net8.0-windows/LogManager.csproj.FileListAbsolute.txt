@@ -1,0 +1,28 @@
+D:\Education\ИТ\1 аттестация\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Education\ИТ\1 аттестация\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\App.g.cs
+D:\Education\ИТ\1 аттестация\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Education\ИТ\1 аттестация\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager_MarkupCompile.cache
+D:\Education\ИТ\1 аттестация\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager_MarkupCompile.lref
+D:\Education\IT\1att\IT_Task_1_6\LogManager\bin\Debug\net8.0-windows\LogManager.exe
+D:\Education\IT\1att\IT_Task_1_6\LogManager\bin\Debug\net8.0-windows\LogManager.deps.json
+D:\Education\IT\1att\IT_Task_1_6\LogManager\bin\Debug\net8.0-windows\LogManager.runtimeconfig.json
+D:\Education\IT\1att\IT_Task_1_6\LogManager\bin\Debug\net8.0-windows\LogManager.dll
+D:\Education\IT\1att\IT_Task_1_6\LogManager\bin\Debug\net8.0-windows\LogManager.pdb
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\App.g.cs
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager_MarkupCompile.cache
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager_MarkupCompile.lref
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\App.baml
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.g.resources
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.AssemblyInfoInputs.cache
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.AssemblyInfo.cs
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.csproj.CoreCompileInputs.cache
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.sourcelink.json
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.dll
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\refint\LogManager.dll
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.pdb
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\LogManager.genruntimeconfig.cache
+D:\Education\IT\1att\IT_Task_1_6\LogManager\obj\Debug\net8.0-windows\ref\LogManager.dll
