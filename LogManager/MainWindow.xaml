@@ -27,8 +27,12 @@
         <!-- Фильтры -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
             <Button Content="Фильтр по типу" Command="{Binding FilterByTypeCommand}" Margin="0,0,10,0"/>
+            <TextBlock Text="От:" VerticalAlignment="Center" Margin="0,0,5,0"/>
             <DatePicker SelectedDate="{Binding StartDate}" Margin="0,0,10,0"/>
+            <local:TimeMaskedTextBox Width="60" Time="{Binding StartTime, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,10,0"/>
+            <TextBlock Text="До:" VerticalAlignment="Center" Margin="0,0,5,0"/>
             <DatePicker SelectedDate="{Binding EndDate}" Margin="0,0,10,0"/>
+            <local:TimeMaskedTextBox Width="60" Time="{Binding EndTime, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,10,0"/>
             <Button Content="Фильтр по дате" Command="{Binding FilterByDateRangeCommand}" Margin="0,0,10,0"/>
             <Button Content="Сбросить фильтры" Command="{Binding ResetFiltersCommand}"/>
         </StackPanel>
@@ -75,7 +79,14 @@
         </ListView>
 
         <!-- Кнопка сохранения -->
-        <Button Grid.Row="3" Content="Сохранить в файл" Command="{Binding SaveToFileCommand}"
-                HorizontalAlignment="Right"/>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding MessageCount, StringFormat='Всего сообщений: {0}'}" 
+                       VerticalAlignment="Center"/>
+            <Button Grid.Column="1" Content="Сохранить в файл" Command="{Binding SaveToFileCommand}"/>
+        </Grid>
     </Grid>
 </Window>

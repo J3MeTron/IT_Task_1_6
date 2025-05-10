@@ -38,7 +38,12 @@ namespace LogManager
 
         public IEnumerable<LogMessage> GetMessagesByTimeRange(DateTime start, DateTime end)
         {
-            return _messages.Where(m => m.Timestamp >= start && m.Timestamp <= end);
+            return _messages.Where(m => 
+            {
+                // Сравниваем полное значение DateTime, включая секунды
+                // Включаем сообщения, которые точно попадают в указанный диапазон
+                return m.Timestamp >= start && m.Timestamp <= end;
+            });
         }
 
         public IEnumerable<LogMessage> GetAllMessages()
